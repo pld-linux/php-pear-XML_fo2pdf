@@ -1,9 +1,10 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          XML
-%define         _subclass       fo2pdf
+%define		_class		XML
+%define		_subclass	fo2pdf
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_pearname} - Converts a xsl-fo file to pdf/ps/pcl/text/etc
-Summary(pl):	%{_pearname} - Konwertuje xsl-fo na pdf/ps/pcl/text/etc
+
+Summary:	%{_pearname} - converts a xsl-fo file to pdf/ps/pcl/text/etc
+Summary(pl):	%{_pearname} - konwersja xsl-fo na pdf/ps/pcl/text/etc
 Name:		php-pear-%{_pearname}
 Version:	0.98
 Release:	1
