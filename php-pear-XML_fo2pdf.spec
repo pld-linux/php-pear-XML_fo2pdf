@@ -8,7 +8,7 @@ Summary:	%{_pearname} - converts a xsl-fo file to pdf/ps/pcl/text/etc
 Summary(pl):	%{_pearname} - konwersja xsl-fo na pdf/ps/pcl/text/etc
 Name:		php-pear-%{_pearname}
 Version:	0.98
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
