@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Converts a xsl-fo file to pdf/ps/pcl/text/etc with the help of
 apache-fop.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Konwertuje pliki xsl-fo na pdf/ps/pcl/text/etc przy pomocy apache-fop.
