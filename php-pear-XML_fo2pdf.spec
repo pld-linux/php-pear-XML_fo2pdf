@@ -1,6 +1,7 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		XML
 %define		_subclass	fo2pdf
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - converts a xsl-fo file to pdf/ps/pcl/text/etc
@@ -10,8 +11,8 @@ Version:	0.98
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	a7ba81edf4149ab88819657cb9fab8f4
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	a7ba81edf4149ab88819657cb9fab8f4
 URL:		http://pear.php.net/package/XML_fo2pdf/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
@@ -22,8 +23,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Converts a xsl-fo file to pdf/ps/pcl/text/etc with the help of
 apache-fop.
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 Konwertuje pliki xsl-fo na pdf/ps/pcl/text/etc przy pomocy apache-fop.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
