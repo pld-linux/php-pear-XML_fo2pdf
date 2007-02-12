@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - converts a xsl-fo file to pdf/ps/pcl/text/etc
-Summary(pl.UTF-8):   %{_pearname} - konwersja xsl-fo na pdf/ps/pcl/text/etc
+Summary(pl.UTF-8):	%{_pearname} - konwersja xsl-fo na pdf/ps/pcl/text/etc
 Name:		php-pear-%{_pearname}
 Version:	0.98
 Release:	4
