@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		XML
 %define		_subclass	fo2pdf
 %define		_status		stable
